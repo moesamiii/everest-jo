@@ -23,7 +23,7 @@
       <div
         class="collapse navbar-collapse"
         id="navbarNav"
-        style="flex-wrap: nowrap; white-space: nowrap; overflow-x: auto"
+        style="flex-wrap: nowrap; min-width: 100%"
       >
         <ul
           class="navbar-nav mx-auto"
@@ -31,16 +31,18 @@
             display: flex;
             flex-wrap: nowrap;
             white-space: nowrap;
-            flex-shrink: 0;
+            justify-content: space-between;
+            width: 100%;
+            align-items: center;
           "
         >
-          <li class="nav-item" style="flex-shrink: 0">
+          <li class="nav-item" style="flex-shrink: 0; padding: 0 15px">
             <a class="nav-link" aria-current="page" href="index.html">Home</a>
           </li>
-          <li class="nav-item" style="flex-shrink: 0">
+          <li class="nav-item" style="flex-shrink: 0; padding: 0 15px">
             <a class="nav-link" aria-current="page" href="about.html">About</a>
           </li>
-          <li class="nav-item dropdown" style="flex-shrink: 0">
+          <li class="nav-item dropdown" style="flex-shrink: 0; padding: 0 15px">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -57,7 +59,7 @@
               </li>
             </ul>
           </li>
-          <li class="nav-item dropdown" style="flex-shrink: 0">
+          <li class="nav-item dropdown" style="flex-shrink: 0; padding: 0 15px">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -85,7 +87,7 @@
               <!--<li><a class="dropdown-item" href="404_page.html">Error 404</a></li>-->
             </ul>
           </li>
-          <li class="nav-item dropdown" style="flex-shrink: 0">
+          <li class="nav-item dropdown" style="flex-shrink: 0; padding: 0 15px">
             <a
               class="nav-link dropdown-toggle"
               href="#"
@@ -100,11 +102,12 @@
               <li><a class="dropdown-item" href="vision.html">Vision</a></li>
             </ul>
           </li>
-          <li class="nav-item" style="flex-shrink: 0">
+          <li class="nav-item" style="flex-shrink: 0; padding: 0 15px">
             <a class="nav-link" href="contact.html">Contact Us</a>
           </li>
         </ul>
       </div>
+
       <div class="navbar-action-container">
         <div class="navbar-action-button">
           <button
