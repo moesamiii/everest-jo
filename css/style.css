@@ -621,28 +621,32 @@ body.lightmode .form select {
 
 /* ================== 08. Navbar ================== */
 
-.navbar {
+.navbar-wrapper {
   display: flex;
-  align-items: center; /* Vertically center everything */
-  justify-content: space-between; /* Spread logo and nav items apart */
-  flex-wrap: nowrap; /* Prevent wrapping to next line */
+  flex-direction: row;
+  align-self: stretch;
+  width: 100%;
+  height: 100%;
+  padding: 30px 30px 30px 30px;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  width: 100%;
+  z-index: 3;
+  padding: 1em;
+  border: 1px solid var(--accent-color-3);
+  background-color: var(--accent-color-4);
+  padding: 15px 30px 15px 30px;
+  border-radius: var(--global-border-radius);
 }
 
 .navbar-container {
   display: flex;
-  align-items: center;
+  flex-direction: row;
   justify-content: space-between;
-  flex-wrap: nowrap; /* keep everything in one row */
   width: 100%;
-}
-
-.navbar-container ul {
-  display: flex;
-  align-items: center;
-  gap: 25px; /* spacing between menu items */
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-btn {
