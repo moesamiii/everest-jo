@@ -128,7 +128,7 @@ function initThemeSwitch() {
       $("body").removeClass("lightmode");
       localStorage.removeItem("lightmode");
 
-      siteLogos.attr("src", "image/Everest_logo_dark.png");
+      siteLogos.attr("src", "image/Everest_Logo_dark.png");
 
       partnerLogos.each(function () {
         const $img = $(this);
