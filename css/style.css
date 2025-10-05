@@ -647,6 +647,10 @@ body.lightmode .form select {
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  /* Add these lines */
+  flex-wrap: nowrap; /* Prevent wrapping */
+  align-items: center; /* Align items vertically */
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 .nav-btn {
