@@ -699,7 +699,7 @@ body.lightmode .form select {
   border: none;
   padding: 0;
   border-radius: 25px;
-  width: 220px;
+  width: 270px;
   background-color: var(--secondary);
   overflow: hidden;
   -webkit-box-shadow: 0 10px 30px 0 rgba(45, 45, 45, 0.2);
